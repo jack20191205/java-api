@@ -7,5 +7,9 @@ public class Hello {
         System.out.println("********");
         System.out.println("********");
         System.out.println("******是**");
+        System.out.println("******是**");
+        System.out.println("******是**");
+        System.out.println("******是**");
+        System.out.println("******是**");
     }
 }
