@@ -1,0 +1,29 @@
+API定义：
+应用程序接口（Applicaition processer interface）,别人写好
+代码以类的形式封装，开发者可以自由的调用
+
+Object类：所有类都继承Object类
+
+equals方法判断两个对象是否相等：
+equals和==的区别
+==：
+== 比较的是变量(栈)内存中存放的对象的(堆)内存地址，用来判断两个对象的地址是否相同，即是否是指相同一个对象。比较的是真正意义上的指针操作。
+
+1、比较的是操作符两端的操作数是否是同一个对象。
+2、两边的操作数必须是同一类型的（可以是父子类之间）才能编译通过。
+3、比较的是地址，如果是具体的阿拉伯数字的比较，值相等则为true，如：
+int a=10 与 long b=10L 与 double c=10.0都是相同的（为true），因为他们都指向地址为10的堆。
+
+equals：
+　　equals用来比较的是两个对象的内容是否相等，由于所有的类都是继承自java.lang.Object类的，
+所以适用于所有对象，如果没有对该方法进行覆盖的话，调用的仍然是Object类中的方法，
+而Object中的equals方法返回的却是==的判断。
+
+    private String name;
+    private int age;
+    private char gender;
+    private double height;
+
+
+重写toString方法的好处：
+可以自定义对象的字符串表示，这是Object类提供的方法
