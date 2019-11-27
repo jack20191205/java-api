@@ -27,3 +27,19 @@ equals：
 
 重写toString方法的好处：
 可以自定义对象的字符串表示，这是Object类提供的方法
+
+
+String类
+String是一个不可以改变的字符串类，它是JDK1.0版本提供的，所有的字符串类都是String类，该类
+被final修饰所以不能被子类继承,该类提供了大量的APIString对象和操作String
+对象
+创建String对象
+1、通过字符串字面量创建字符串对象
+   String aa="hello";
+2、通过String类提供的构造器创建String对象
+
+
+
+
+
+
