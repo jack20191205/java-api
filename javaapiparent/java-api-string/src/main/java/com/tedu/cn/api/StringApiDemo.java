@@ -103,7 +103,7 @@ public class StringApiDemo {
          * 测试字符串是否一某一后缀结尾，如果是返回true,否则返回false
          */
         String str1="I love you";
-        System.out.println(str1.endsWith("ou"));
+        System.out.println(str1.startsWith("I"));
     }
     @Test
     public void testUpperCase(){
